@@ -1,0 +1,227 @@
+body {
+	font-family: 'Open Sans';
+	height: 100%;
+}
+
+#container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/**********************************
+NAV
+***********************************/
+
+#top {
+	padding-bottom:1%;
+	clear: both;
+}
+
+.logo {
+	color: white;
+}
+
+.phone_no {
+	color: white;
+	font-size: 1.5em;
+	display: inline-block;
+	float: right;
+	margin-top:2%;
+}
+
+.phone_no:before {
+	content: url('../imgs/icon_phone.png');
+	margin-right: 10px
+	
+	
+}
+
+.login {
+	display:inline-block;
+	float: right;
+	text-decoration:underline;
+	background-color: white;
+	border: none;
+	padding: 5px 10px;
+	clear: right;
+
+}
+
+
+/**********************************
+NAV
+***********************************/
+
+nav li a {
+	color: white;
+}
+
+.nav_top li{
+	margin-left: 30%;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+/**********************************
+FOOTER
+***********************************/
+
+.social-icon {
+	
+	height: 21px;
+	margin-top: 10px;
+	padding-left: 5px;
+
+}
+
+.social-group {
+	
+	float: right;
+	clear: both;
+
+}
+
+.nav-footer {
+	float: right;
+	clear: both;
+}
+
+
+/*----------------------------------
+HOME-PAGE: 
+----------------------------------*/
+
+/**********************************
+HEADER-IMAGE
+***********************************/
+
+.image-holder  {
+	padding: 0;
+}
+
+.image-holder img {
+	width: 100%;
+	padding: 0;
+}
+
+/**********************************
+COMPANY NAME SEARCH BOX
+***********************************/
+
+.searchBox {
+	margin-left:17.5%;
+	margin-top: -13%;
+	padding-bottom: 2%;
+	background-color: #ebebeb;
+	width: 64%;	
+	border: 2px solid #3274b0;
+
+}
+
+.searchBox h1{
+	font-size: 1.9em;
+	color: #3274b0;
+}
+
+.steps {
+	background-color: ;
+	padding-left: 0;
+	background-color: ;
+
+}
+
+.steps li {
+	width: 160px;
+	display: inline-block;
+	font-size: 1.2em;
+	margin-right: -9px;	
+	padding-left: 10px
+}
+
+.chevron-light {
+	background: url('../imgs/chevron_light.png') no-repeat;
+	background-size: 160px 28px;
+	color: #3274b0;
+
+}
+.chevron-dark {
+	background: url('../imgs/chevron_dark.png') no-repeat;
+	background-size: 160px 28px;
+	color: white;
+
+}
+
+.steps span {
+	font-size: .8em;
+}
+
+input[type="text"]{
+	padding: .5%;
+	width: 80%;
+	border: 2px solid #3274b0;
+}
+
+button[type^="submit"]{
+	background: red;
+	border: none;
+	color: white;
+	padding: 4px 20px;
+}
+
+/**********************************
+BELOW THE FOLD ICONS
+***********************************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 40%;
+	margin: 5%;
+	background-color: #3274b0;
+	color: #bdc3c7;
+}
+
+#gallery li p {
+	margin: 0;
+	padding: 2%;
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+}
+
+#gallery li img {
+	width: 100%
+}
+
+/**********************************
+COLORS
+***********************************/
+
+#top {
+	background-color: #3274b0;
+}
+
+.nav_top {
+	background-color: #2d558f;
+}
+
+footer {
+	background-color: #2d558f;
+}
+
+
