@@ -114,6 +114,74 @@ HEADER-IMAGE
 	padding: 0;
 }
 
+
+/*----------------------------------
+FAQ-PAGE: 
+----------------------------------*/
+
+/**********************************
+HEADER
+***********************************/
+
+#header {
+	border-bottom: 5px dashed #2d558f;
+	padding-bottom: 8px;
+	color: #2d558f;
+	font-size: 2em;
+	margin-bottom: 2%;
+}
+
+.wrapper {
+	padding:0 5%;
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+
+}
+
+img[src^="imgs/Q_icon.png"] {
+	float: left;
+	height: 1.4em;
+
+}
+
+
+
+img[src^="imgs/arrow_icon.png"] {
+	float: right;
+	
+}
+
+.panel-group .panel+.panel {
+	margin-top: 1em;
+}
+
+.panel-title>a  {
+	color: #2d558f;
+	font-size: 1.5em;
+	text-align: center;
+
+}
+
+.panel-heading {
+	padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /**********************************
 COMPANY NAME SEARCH BOX
 ***********************************/
