@@ -36,52 +36,48 @@
         </div>
 
         <div class="row">
-          <section class="col-md-12 image-holder">
-            <img src="imgs/header_image.jpg">
+          <section class="col-md-12 col-sm-12">
+            <h1 class="get-in-touch">GET IN TOUCH</h1>
           </section>
         </div>
 
-        <div class="row ">
-          <section class="col-md-12 col-sm-12 searchBox">
-            <form>
-              <fieldset>
-                <h1>Register your company<br> in 3 simple steps</h1>
+        <div class="row">
+          <section class="col-md-4 col-sm-3" id="office_details">
+            <h3>Address:</h3>
+            <p>Himalaya Company<br>
+                77 Mass. Ave., E14/E15<br>
+                Cambridge, MA 02139-4307 USA 
+            </p>
+              <h3>Phone:</h3>
+            <p>+ 353 (0)1 6461625</p>
+          </section>
+          
+          <section class="col-md-8 col-sm-9 contact_name" id="contact-wrapper">
+            <form action="index.html" method="post">
+              <fieldset id="details">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" placeholder="Your Name">
+                
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" placeholder="Your Email">
+
+                <label for="phone">Phone:</label>
+                <input type="phone" id="phone" name="user_phone" placeholder="Your Phone Number">
               </fieldset>
 
-              <fieldset>
-                
-                <ul class="steps">
-                  <li class="chevron-light"><p><span>Step 1:</span>Name Check</p></li>
-                  <li class="chevron-dark"><p><span>Step 2:</span>Pay</p></li>
-                  <li class="chevron-dark"><p><span>Step 3:</span>Complete</p></li>
-                </ul>
-                
-              </fieldset>
-
-              <fieldset>
-                <input type="text" id="name_search" name="user_name_search">
-                <button type="submit">Search</button>
+              <fieldset id="comments">
+                <label for="comment">Comments:</label>
+                <textarea id="comment" name="user_message" placeholder="Enter your message…"></textarea>
+                <button type="submit">SUBMIT</button>
               </fieldset>
             </form>
           </section>
-        </div>
-
-        <div class="row" id="shortcut">
-          <section class="col-md-4 col-sm-4">
-              <img src="imgs/help_image.jpg" class="img-responsive">
-              <a href="contact.html"><button class=" gallery">Register</button></a>
-          </section>
-          
-          <section class="col-md-4 col-sm-4"> 
-              <img src="imgs/faq_image.jpg" class="img-responsive">
-              <a href="contact.html"><button class=" gallery">FAQ</button></a>
-          </section>
-          
-          <section class="col-md-4 col-sm-4">
-              <img src="imgs/contact_us_image.jpg" class="img-responsive">
-              <a href="contact.html"><button class=" gallery">Contact Us</button></a>
-          </section>
-        </div>
+      
+      <div class="row">
+        <section class="col-md-12 col-sm-12 map">
+          <img src="imgs/google_map.jpg">
+        </section>
+      </div>
 
         <footer class="row">
           <div class ="col-md-6">
